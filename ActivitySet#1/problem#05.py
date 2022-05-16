@@ -13,3 +13,17 @@ rphr = float(rphrs)
 
 p = computepay(hr,rphr)
 print(p)
+
+
+
+
+
+
+def computepay(hrs,rate):
+     pay=(hrs-40)*r*1.5*40*r
+  
+main()
+hrs=input("enter hours")
+hr=float(hrs)
+rphrs=input("enter rate per hour")
+rphr=float(rphrs)
