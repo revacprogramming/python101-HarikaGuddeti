@@ -6,4 +6,4 @@ piece=str[position+1:]   #slicing
 x=float(piece)           
 print(x)
 
-#+1 to reduce blank space and remove colon
+#+1 to reduce blank space and remove colon in output
