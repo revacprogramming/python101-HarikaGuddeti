@@ -15,3 +15,7 @@ for line in fhand:
             lst.append(i)
 lst.sort()            
 print(lst)
+
+#for i in l:
+#if i not in lst:
+     #lst.append(i)
