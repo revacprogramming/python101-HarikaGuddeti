@@ -1,6 +1,6 @@
 # Files
 
-fname = "database/mbox-short.txt"
+fname = "dataset/mbox-short.txt"
 
 count = 0
 average = 0
