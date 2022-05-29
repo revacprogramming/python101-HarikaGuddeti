@@ -1,19 +1,18 @@
+import math
 def rectangle(l,b):
-  area=
-  a=int(area)
+  area=l*b
+  a=float(area)
   return area
   
 def main():
+
+  p1=float(input("enter the points:",x1,y1))
+  x2,y2=float(input("enter the points:"))
+  x3,y3=float(input("enter the points:"))
   
-  n=int(input("enter number of rectangles:"))
-  coordinates=[(x1,y1),(x2,y2),(x3,y3)]
-  (x1,y1)=int(input("enter the points:"))
-  (x2,y2)=int(input("enter the points:"))
-  (x3,y3)=int(input("enter the points:"))
-  p1=(x1,y1)
-  p2=(x2,y2)
-  p3=(x3,y3)
-  a=rectangle(l,b)
+  l1=math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
+  l2=math.sqrt((x3-x2)*(x3-x2)+(y3-y2)*(y3-y2))
+  a=rectangle(l1,l2)
   print("area",a)
 main()
   
